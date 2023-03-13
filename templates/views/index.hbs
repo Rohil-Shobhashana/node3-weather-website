@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- header('Content-Type: application/javascript'); -->
+    <title>weather</title>
+    <link rel="icon" href="/img/s.png">
+    </link>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div class="main-content">
+        {{>headers}}
+        <P>Use this site to get you weather.</P>
+        <form>
+            <input placeholder="Location">
+            <button>Search</button>
+        </form>
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </div>
+
+    {{>footer}}
+    <script type="text/javascript" src="../js/app.js"></script>
+
+</body>
+
+</html>
